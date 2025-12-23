@@ -2,17 +2,17 @@ Use your non-dominant hand for a routine task.
 Estimate ten seconds without counting.
 Walk a familiar route at half your usual pace.
 Name five objects you can see without moving your eyes.
-Stand up and sit down without using your hands.
+Stand and sit once without using your hands.
 Recall yesterday in reverse order, stopping after three events.
 Hold an object and describe its shape without naming it.
-Balance on one foot while waiting for something to finish.
+Stand on one foot briefly while waiting for something.
 Read one paragraph aloud more slowly than feels natural.
 Close your eyes and point toward the nearest door.
 Sit on the floor and stand back up using a different movement than usual.
 Write one sentence using your non-dominant hand.
 Estimate how long one minute is without checking a clock.
 Listen to a familiar sound and identify its components.
-Climb a flight of stairs without using the handrail.
+Walk up a staircase without touching the handrail.
 Name ten words starting with the same letter, slowly.
 Carry a light object in an unfamiliar way.
 Trace a simple shape in the air with your finger while looking away.
@@ -42,7 +42,7 @@ Name four sounds you can hear without turning your head.
 Press your palms together and release them at the same speed.
 Look at a shadow and describe the object casting it without naming the object.
 Step backward three paces with your eyes open.
-Hold your breath for one exhale's duration, then resume.
+Pause your breathing for the length of one exhale, then continue.
 Identify which foot is bearing more weight without shifting.
 Say a word and then say it again with a longer pause between syllables.
 Pick up a pen and set it down using only two fingers from each hand.
@@ -107,7 +107,7 @@ Hum a note that changes pitch once.
 Stand with your feet together and apart again.
 Describe the shape of the nearest window without looking at it.
 Take something out of a pocket using only two fingers.
-Speak at the volume of the room.
+Say one sentence at the volume of the ambient sound.
 Name the last door you walked through.
 Place your hand on a surface and slide it without lifting.
 Identify which of your feet is warmer.
