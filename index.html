@@ -51,6 +51,7 @@
     .protocol-link {
       position: fixed;
       bottom: 2rem;
+      left: 2rem;
       font-size: 0.875rem;
       color: #999;
       text-decoration: none;
@@ -58,6 +59,14 @@
 
     .protocol-link:hover {
       color: #666;
+    }
+
+    .update-note {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      font-size: 0.75rem;
+      color: #bbb;
     }
   </style>
 </head>
@@ -67,6 +76,7 @@
     <div class="explanation" id="explanation"></div>
   </div>
   <a href="protocol.html" class="protocol-link">Protocol</a>
+  <span class="update-note">Changes at midnight GMT.</span>
 
   <script>
     (async function() {
