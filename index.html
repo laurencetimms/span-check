@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Span Check</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Source Serif 4', serif;
+      background: #fafafa;
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      min-height: 100%;
+    }
+
+    .instruction {
+      max-width: 32rem;
+      font-size: 1.375rem;
+      line-height: 1.55;
+      text-align: center;
+    }
+
+    .protocol-link {
+      position: fixed;
+      bottom: 2rem;
+      font-size: 0.875rem;
+      color: #999;
+      text-decoration: none;
+    }
+
+    .protocol-link:hover {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="instruction" id="instruction"></div>
+  <a href="protocol.html" class="protocol-link">Protocol</a>
+
+  <script>
+    (async function() {
+      try {
+        const response = await fetch('x9k2m7v4.txt');
+        const text = await response.text();
+        const instructions = text.trim().split('\n').filter(line => line.trim());
+        
+        // Get current date in GMT
+        const now = new Date();
+        const gmtDate = new Date(now.toISOString().split('T')[0]);
+        
+        // Create a deterministic index from the date
+        const daysSinceEpoch = Math.floor(gmtDate.getTime() / (1000 * 60 * 60 * 24));
+        const index = daysSinceEpoch % instructions.length;
+        
+        document.getElementById('instruction').textContent = instructions[index];
+      } catch (e) {
+        document.getElementById('instruction').textContent = '';
+      }
+    })();
+  </script>
+</body>
+</html>
